@@ -1,6 +1,7 @@
 # CS781 Capstone: In-House Legal Intelligence System
 
 Author: Parishri Shah. 
+
 LLM Capstone Course project.
 
 A law firm often cannot send confidential documents to a cloud language model. This project trains legal language models from scratch (Phase 1) and adapts them to six legal tasks (Phases 2 to 7). No other pretrained model, external legal data or LLM API is used in any model.
