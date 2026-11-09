@@ -30,7 +30,6 @@ Binary cross-entropy with capped positive weights, or asymmetric loss (ASL, gamm
 | `P5-N3` | arch 2 partial | 0.1908 |
 | `P5-N4` | KD student, arch 1 5 layers | 0.3079 |
 | `P5-G2` | arch 4 LoRMA + ASL | 0.3832 |
-| `P5-C` | Final ensembles (cross-fitted) | not recorded |
 | **`P5-X`** | **Weighted members + thresholds + statute cap, chosen by cross-fitting** | **0.3871** |
 
 Notebooks are in `notebooks/`, in folders that follow the order of the experiments. Exact duplicates were removed and outputs were cleared. Python sources are in `src/`.
