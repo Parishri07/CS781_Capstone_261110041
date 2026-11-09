@@ -38,6 +38,6 @@ Notebooks are in `notebooks/`, in folders that follow the order of the experimen
 ## How to run
 
 1. Open the notebook on Kaggle with **GPU T4 x2**.
-2. Add a Kaggle secret named `capstone` (or `HF_TOKEN`) holding a Hugging Face token with access to `Exploration-Lab/CS-781-Capstone`.
+2. Add a Kaggle secret named `capstone` holding a Hugging Face token with access to `Exploration-Lab/CS-781-Capstone`.
 3. Attach a dataset holding the Phase-1 checkpoints, tokenizers and `shared/phase1_models` code (see the root README). Weights are not stored in this repository.
 4. Use **Save Version -> Save & Run All**. Each notebook writes its own code files, runs a short smoke check, then the real run, and saves a submission zip in `/kaggle/working`.
