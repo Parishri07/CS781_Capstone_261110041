@@ -45,7 +45,7 @@ Full and partial fine-tuning, LoRA, rsLoRA, LoRMA, BitFit, Houlsby adapters, IA3
 
 All work ran on Kaggle with 2 T4 GPUs and 12-hour sessions. To reproduce:
 
-1. Get data from `Exploration-Lab/CS-781-Capstone` on Hugging Face. It needs an access token, stored as the Kaggle secret `capstone` or `HF_TOKEN`.
+1. Get data from `Exploration-Lab/CS-781-Capstone` on Hugging Face. It needs an access token, stored as the Kaggle secret `capstone`.
 2. Train the foundation models with the Phase 1 notebooks, or use your own checkpoints.
 3. Make a Kaggle dataset with this layout, named `phase2-backbones`: `arch1_decoder/`, `arch2_encdec/`, `arch3_prefixlm/`, `arch4_mla/` (each with `ckpt_best.pt`), plus `code/`, `tokenizers/` and `manifest.json` from `shared/`.
 4. Open a notebook, attach that dataset, and use **Save Version -> Save & Run All**.
