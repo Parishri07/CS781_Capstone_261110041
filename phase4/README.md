@@ -26,7 +26,6 @@ Class-weighted cross-entropy and a threshold tuned on dev. Mean pooling stayed n
 | `P4-V3-C1L`, `1_C1L` | arch 3 full FT, 3 epochs | 0.7607 |
 | **`P4-V3-C2`, `2_C2`** | **arch 4 LoRMA, causal** | **0.7862** |
 | `P4-V3-C4`, `4_C4` | Ensemble / KD student | 0.7858 / 0.6012 |
-| `7_CLEAN` | Thresholds re-tuned on corrected dev | add from Codabench |
 
 Notebooks are in `notebooks/`, in folders that follow the order of the experiments. Exact duplicates were removed and outputs were cleared. Python sources are in `src/`.
 
