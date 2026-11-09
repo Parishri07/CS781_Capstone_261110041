@@ -1,0 +1,46 @@
+{
+ "arch1_decoder": {
+  "file": "arch1_decoder/ckpt_best.pt",
+  "model": "model_arch.DecoderLM (MHA, sinusoidal, pre-LN)",
+  "params": 76993536,
+  "tokenizer": "tokenizers/a1_bpe8000.pkl",
+  "val_loss": 1.521,
+  "leaderboard": 0.8245,
+  "attention": "causal",
+  "crc32": "eb56ea01"
+ },
+ "arch2_encdec": {
+  "file": "arch2_encdec/ckpt_best.pt",
+  "model": "encdec.EncDecLM (6 enc + 4 dec)",
+  "params": 86438400,
+  "tokenizer": "tokenizers/a1_bpe8000.pkl",
+  "val_loss": 1.881,
+  "leaderboard": 0.8181,
+  "attention": "bidirectional encoder",
+  "crc32": "8dab9d45"
+ },
+ "arch3_prefixlm": {
+  "file": "arch3_prefixlm/ckpt_best.pt",
+  "model": "prefixlm.PrefixLM",
+  "params": 91097856,
+  "tokenizer": "tokenizers/space_bpe8000.pkl",
+  "val_loss": 1.928,
+  "leaderboard": 0.8305,
+  "attention": "bidirectional prefix",
+  "crc32": "d8c45c53"
+ },
+ "arch4_mla": {
+  "file": "arch4_mla/ckpt_best.pt",
+  "model": "mla.MLALM (step 40000)",
+  "params": 87856896,
+  "tokenizer": "tokenizers/space_bpe8000.pkl",
+  "val_loss": 1.747,
+  "leaderboard": 0.8338,
+  "attention": "causal",
+  "crc32": "42ecda68"
+ },
+ "tokenizers": {
+  "a1_bpe8000.pkl": "87cd6fc34e09",
+  "space_bpe8000.pkl": "9e7a2f7dfbb1"
+ }
+}
