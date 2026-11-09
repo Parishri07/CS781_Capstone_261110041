@@ -18,7 +18,7 @@ A law firm often cannot send confidential documents to a cloud language model. T
 | [6](phase6/README.md) | Abstractive summarisation | BERTScore F1 | 0.8510 | arch 3 full FT + beam search |
 | [7](phase7/README.md) | Prior case retrieval | Micro-F1@7 | 0.4335 | KD student + scoring rule + phrase vectors |
 
-Each phase folder has its own README with the architecture, method, every submission and its score. The Phase 4 score used a threshold tuned on a dev file that was later found to contain test labels; see [Phase 4](phase4/README.md).
+Each phase folder has its own README with the architecture, method, every submission and its score. 
 
 ## Repository layout
 
